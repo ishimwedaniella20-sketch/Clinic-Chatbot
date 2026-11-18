@@ -1,0 +1,261 @@
+text,intent,source,split
+kwiyandikisha,book,written,train
+i would like to make an appointment,book,written,train
+reserve a consultation,book,written,train
+set an appointment for my son,book,written,train
+schedule a visit,book,written,train
+ndashaka kwivuza,book,local,train
+book me for lab test on monday,book,written,train
+make me an appointment,book,written,train
+ndashaka kubonana na muganga,book,written,train
+i want to see the dentist,book,written,train
+can i come on saturday morning,book,written,train
+Ese mwakira abarwayi batabanje gufata gahunda?,book,people,train
+i want to book a visit,book,rules,train
+i need to visit the clinic,book,written,train
+kwivuza ejo,book,written,train
+bk appointment pls,book,written,train
+ndashaka gahunda,book,written,train
+get me a slot on thursday,book,written,train
+book visit 2moro,book,local,train
+book an appointment,book,rules,train
+can i get an appointment this week,book,written,train
+can i reserve a slot for friday,book,written,train
+nshaka umuganga,book,unmatched,train
+book a dental visit,book,written,train
+Ese nshobora gufata gahunda yo kuza ejo?,book,people,train
+i want to do a lab test tomorrow,book,written,train
+nshaka kwivuza ku wa mbere,book,written,train
+call it off,cancel,written,train
+cancel lab test,cancel,written,train
+cancel,cancel,rules,train
+cancel everything,cancel,written,train
+ndahagaritse,cancel,written,train
+i wont make it tomorrow,cancel,written,train
+"i changed my mind, dont book",cancel,written,train
+i need to cancel,cancel,written,train
+i want to cancel my booking,cancel,written,train
+cancel the visit for friday,cancel,written,train
+guhagarika gahunda yanjye,cancel,written,train
+undo my booking,cancel,written,train
+sinshobora kuza,cancel,written,train
+please cancel my dental,cancel,written,train
+cancle,cancel,local,train
+sinkibonetse kuza,cancel,written,train
+cancel pls,cancel,written,train
+no longer need the appointment,cancel,written,train
+cancl my appt,cancel,written,train
+cancel my appointment,cancel,written,train
+withdraw my appointment request,cancel,written,train
+hagarika,cancel,written,train
+cancel monday visit,cancel,written,train
+ndashaka guhagarika gahunda,cancel,written,train
+i am sick and cant come,cancel,written,train
+my father fell and is not responding,emergency,written,train
+my wife is in labour and bleeding,emergency,written,train
+uwarwaye cyane,emergency,written,train
+i have an emergency,emergency,written,train
+urgent help,emergency,written,train
+it is urgent,emergency,written,train
+ndi kuva amaraso,emergency,written,train
+ndwaye cyane ubu,emergency,written,train
+bleeding,emergency,written,train
+ambulance please,emergency,written,train
+ihutirwa,emergency,rules,train
+umwana arimo guhumeka nabi,emergency,written,train
+ndi guhumeka nabi,emergency,written,train
+heavy bleeding after accident,emergency,written,train
+i think i am having a heart attack,emergency,written,train
+Nakora iki mu gihe habaye ikibazo cyihutirwa cy'ubuzima?,emergency,people,train
+she is bleeding a lot,emergency,written,train
+someone fainted,emergency,written,train
+he is unconscious,emergency,written,train
+amaraso,emergency,written,train
+i cant breathe,emergency,written,train
+bleeding badly,emergency,written,train
+i was bitten by a snake,emergency,written,train
+there is an accident,emergency,written,train
+emergency pls,emergency,written,train
+i cant breath,emergency,written,train
+mufungura ku cyumweru?,hours,written,train
+are you open on weekends,hours,written,train
+opn tmrw?,hours,written,train
+Ivuriro rifunga saa ngahe?,hours,people,train
+is the clinic open today,hours,written,train
+Is the clinic open on Sundays?,hours,people,train
+mufunguye none?,hours,written,train
+saa ngahe mufunga,hours,written,train
+are you open on saturday,hours,written,train
+whn do u open,hours,written,train
+open 24 hours?,hours,written,train
+opening hours please,hours,written,train
+what time do you open,hours,rules,train
+wat time u close 2day,hours,written,train
+mufungura saa ngapi,hours,local,train
+how late are you open,hours,written,train
+what are your working hours,hours,written,train
+are you open on sunday,hours,written,train
+What time does the clinic open?,hours,people,train
+mukora ku wa gatandatu?,hours,written,train
+do you close for lunch,hours,written,train
+do you work on public holidays,hours,written,train
+hours pls,hours,written,train
+mukora saa ngapi,hours,written,train
+are you open now,hours,written,train
+wat tym u open,hours,local,train
+closing time,hours,written,train
+are you in kacyiru,location,written,train
+mwanyereka aho muri,location,written,train
+how do i get to kacyiru,location,written,train
+Is there a clinic near the city centre?,location,people,train
+do you have a map,location,written,train
+where are you,location,rules,train
+is it on kg 567 st,location,written,train
+ur address pls,location,written,train
+how far is the clinic from nyabugogo,location,written,train
+Where is your clinic located?,location,people,train
+location,location,written,train
+what is the nearest bus stop,location,written,train
+muherereye he,location,written,train
+how do i find you,location,written,train
+directions to the clinic,location,written,train
+wer is ur clinic,location,written,train
+which district are you in,location,written,train
+where are u located,location,written,train
+mwampa aho muherereye,location,written,train
+where is the clinic,location,written,train
+muri he,location,written,train
+ikigo cyanyu giherereye he,location,written,train
+address?,location,written,train
+what is your address,location,written,train
+is the clinic far from town,location,written,train
+clinic location pls,location,written,train
+i want to pay my bill,out_of_scope,written,train
+pls help me,out_of_scope,unmatched,train
+give me medicine for headache,out_of_scope,written,train
+where can i buy a bus ticket,out_of_scope,written,train
+send me my medical records,out_of_scope,written,train
+job vacancies?,out_of_scope,written,train
+my results are wrong,out_of_scope,written,train
+tell me a joke,out_of_scope,written,train
+is malaria dangerous,out_of_scope,written,train
+i lost my phone at the clinic,out_of_scope,written,train
+Ese nshobora guhindura itariki ya gahunda yanjye?,out_of_scope,people,train
+qwerty,out_of_scope,unmatched,train
+do you accept mutuelle insurance,out_of_scope,written,train
+i have a headache what should i do,out_of_scope,written,train
+how do i lose weight,out_of_scope,written,train
+what is my test result,out_of_scope,written,train
+do you sell phones,out_of_scope,written,train
+are you hiring nurses,out_of_scope,written,train
+i want to complain,out_of_scope,written,train
+cheap flights to nairobi,out_of_scope,written,train
+the nurse was late,out_of_scope,written,train
+hmm,out_of_scope,written,train
+how old is the clinic,out_of_scope,written,train
+asdfgh,out_of_scope,unmatched,train
+the doctor was rude,out_of_scope,written,train
+Can I get a refund if I cancel my appointment?,out_of_scope,people,train
+prices,prices,written,train
+cost of seeing the dentist,prices,written,train
+Kwisuzumisha muri rusange bisaba angahe?,prices,people,train
+How much does a blood test cost?,prices,people,train
+lab ni angahe,prices,written,train
+consultation fee?,prices,written,train
+kwisuzumisha bigura angahe,prices,written,train
+dental price pls,prices,written,train
+how much is it to see a doctor,prices,written,train
+amenyo ni angahe,prices,rules,train
+how much do i pay for consultation,prices,written,train
+hw much 4 lab test,prices,written,train
+ibiciro bya laboratwari,prices,written,train
+consultation ni angahe,prices,written,train
+how much will the lab cost me,prices,written,train
+how much is dental,prices,rules,train
+mwishyuza angahe kuri consultation,prices,written,train
+how much 2 see dentist,prices,written,train
+how much is a consultation,prices,written,train
+Guhura na muganga bisaba angahe?,prices,people,train
+price list,prices,written,train
+price for general consultation,prices,written,train
+hw much 4 dental,prices,local,train
+how much for lab,prices,written,train
+what are your fees,prices,written,train
+is dental expensive,prices,written,train
+fees for lab test,prices,written,train
+serivisi mutanga,services,written,train
+what kind of tests do you do,services,written,train
+do you do vaccinations,services,written,train
+which services are available,services,written,train
+are there specialists,services,written,train
+do you treat children,services,written,train
+Do you provide maternity services?,services,people,train
+do you offer general consultation,services,written,train
+what do you treat,services,written,train
+do you do lab tests,services,written,train
+Ese mufite serivisi z'imbangukiragutabara?,services,people,train
+mukora iki,services,written,train
+do you have an eye doctor,services,written,train
+ese mufite laboratwari,services,written,train
+wat services u hav,services,written,train
+do you do blood tests,services,written,train
+can i do a malaria test there,services,written,train
+services list pls,services,written,train
+mufite serivisi ki,services,written,train
+do you have a laboratory,services,written,train
+Ese mutanga serivisi zo kuvura amenyo?,services,people,train
+do you offer x-ray,services,written,train
+mufite amenyo,services,written,train
+What services does your clinic offer?,services,people,train
+serivisi zanyu,services,written,train
+do you do teeth cleaning,services,written,train
+mwivura iki,services,written,train
+do you have a pharmacy,services,written,train
+i need an appointment for dental,book,written,test
+Can I book an appointment online?,book,people,test
+book consultation for tuesday afternoon,book,written,test
+i want to see a doctor tomorrow,book,written,test
+gahunda ya dentist,book,written,test
+need to see a doctor today,book,written,test
+stop the appointment,cancel,written,test
+i cant come anymore,cancel,written,test
+nta kuza,cancel,written,test
+i will not come on saturday,cancel,written,test
+remove my booking,cancel,written,test
+How can I cancel my appointment?,cancel,people,test
+help my child is not breathing,emergency,written,test
+"chest pain, very strong",emergency,written,test
+ihutirwa mufashe,emergency,written,test
+mfite ikibazo cy'ihutirwa,emergency,written,test
+emergency,emergency,written,test
+What should I do if someone has difficulty breathing?,emergency,people,test
+clinic hours on saturday,hours,written,test
+what time does the clinic start,hours,written,test
+amasaha yo gufungura,hours,written,test
+what time do you close on friday,hours,written,test
+when do you close,hours,written,test
+amasaha mukorera ni ayahe,hours,written,test
+where is the clinic in kigali,location,written,test
+muri kacyiru?,location,written,test
+wea r u,location,written,test
+can u send the location,location,written,test
+which street are you on,location,written,test
+aho muherereye,location,local,test
+can i pay with momo,out_of_scope,written,test
+what is the capital of rwanda,out_of_scope,written,test
+i want to change my appointment to friday,out_of_scope,written,test
+who won the match,out_of_scope,written,test
+nibyo,out_of_scope,written,test
+what is the weather in kigali,out_of_scope,written,test
+wat is the cost of general,prices,written,test
+ibiciro ni ibihe,prices,written,test
+tell me the price of teeth cleaning,prices,written,test
+ikiguzi cy'amenyo,prices,written,test
+cost of a check up,prices,written,test
+what does a lab test cost,prices,written,test
+what services do you offer,services,rules,test
+do you have a dentist,services,written,test
+which dental services do you have,services,written,test
+mufite umuganga w'abana,services,written,test
+what can i get at your clinic,services,written,test
+do you do pregnancy tests,services,written,test
