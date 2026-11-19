@@ -4,7 +4,7 @@ A chatbot for patients of a clinic in Kigali: opening hours, services, prices, l
 
 ## Live link
 
-**https://TODO-your-app-name.streamlit.app** (opens without signing in; the first visitor may wait a minute while the app wakes up)
+**https://clinic-assistant.streamlit.app** (opens without signing in; the first visitor may wait a minute while the app wakes up)
 
 ## Purpose and users
 
