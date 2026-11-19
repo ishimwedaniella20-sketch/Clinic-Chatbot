@@ -78,4 +78,15 @@ PLACE: kacyiru, kigali, nyabugogo. Found in 6 messages of the dataset.
   - `can i come on saturday morning`: book or hours? I chose book.
   - `do you accept mutuelle insurance`: prices or out_of_scope? I chose out_of_scope.
 
+## The classifier
 
+| | |
+|---|---|
+| Features kept | Characters (2 to 4 letters), 69% accuracy. Words got 65%. |
+| Rules on the same test set | 29 right, 16 missed, 3 confident and wrong, of 48 |
+| Classifier at the threshold | 31 right, 11 missed, 6 confident and wrong, of 48. Fallback rate 31% |
+| Threshold | 0.2. At 0.15 the classifier answers wrongly 11 times out of 48, too many for a clinic: a wrong price or a wrong booking wastes a patient's trip. At 0.25 it falls back 27 times and gets only 23 right. At 0.2 wrong answers drop to 6 and 31 are still right. A fallback costs a patient one more question, so I accept more fallbacks to avoid wrong answers. |
+| Weakest intent | out_of_scope (F1 0.20). Its messages are very different from each other, so the classifier cannot learn one pattern. More varied out_of_scope messages from real people would help. cancel (F1 0.60) is next: 3 of 6 test messages were sent to book, so more cancel messages with different words would help. |
+| What changed after the Assignment 8 feedback | **TODO: write 2 or 3 lines about the lecturer's feedback and what you changed.** |
+
+The classifier is only a little better than my rules: 31 right against 29. It gives more wrong answers (6 against 3), but it understands Kinyarwanda and SMS messages that the rules miss. The test set is small (48 messages), so these numbers can change a lot with a few messages.
